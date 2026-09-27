@@ -26,14 +26,6 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: ''
 - name: 🇨🇭 瑞士 (Switzerland) 03 - xiaohe
-  server: 31.76.104.152
-  port: 9443
-  udp: true
-  type: hysteria2
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  sni: onecloudstream.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 04 - xiaohe
   server: 82.38.64.237
   port: 8443
   udp: true
@@ -41,7 +33,7 @@ proxies:
   password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
   sni: hopp-swizland-new.mysynology.net
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 05 - xiaohe
+- name: 🇨🇭 瑞士 (Switzerland) 04 - xiaohe
   server: 77.110.104.238
   port: 443
   udp: true
@@ -49,6 +41,17 @@ proxies:
   password: 5413edfb-08d6-4fba-b51c-809c04feb127
   sni: ch2-hy2.veilvpn.life
   skip-cert-verify: true
+- name: 🇨🇭 瑞士 (Switzerland) 05 - xiaohe
+  server: 185.18.250.245
+  port: 443
+  udp: true
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
 proxy-groups:
 - name: PROXIES
   type: select
