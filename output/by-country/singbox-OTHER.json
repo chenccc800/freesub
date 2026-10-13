@@ -5,13 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇷 IR 01 - xiaohe",
-      "server": "188.114.97.3",
-      "server_port": 2083,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "ccs2g.pai50288.uk",
+      "server_port": 443,
+      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
       "tls": {
         "enabled": true,
-        "server_name": "newwk1.f1w.de5.net",
+        "server_name": "ccs2g.pai50288.uk",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,10 +20,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "newwk1.f1w.de5.net"
-        }
+        "path": "/pai50288"
       }
     },
     {
@@ -31,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇷 IR 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇷 IR 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
